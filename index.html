@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+     <html lang="en">
+
+       <head>
+
+                <meta charset="UTF-8">
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                <title>Landing Page</title>
+       </head>
+
+<style>
+body {
+
+    margin: 0 ;
+
+}
+
+
+.header {
+    background-image: url(imgs/toppng.com-free-logo-design-734x634.png);
+    background-repeat: no-repeat;
+    background-size: 3cm;
+    background-position-x: 1cm;
+    background-color: #0e0146;
+    padding: 1.3cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;  
+}
+
+.main {
+background-color: rgb(96, 103, 117);
+text-align: center;
+padding-left: 4cm;
+font-size: 1.3cm;
+font-family: fantasy;
+color: #ffffff;
+padding: 4cm;
+padding-top: 1cm;
+}
+
+.article {
+background-color: #7f8199;
+text-align: center;
+padding-left: 4cm;
+font-size: 2cm;
+font-family: fantasy;
+color: #ffffff;
+padding: 3cm;
+background-image: url(/imgs/netpnt-removebg-preview.png);
+background-repeat: no-repeat;
+background-position-x: 21.7cm;
+background-position-y: 0.2cm;
+}
+
+.footer {
+
+background-color: #0e0146;
+background-size: 3cm;
+position: relative;
+padding: 1cm;
+    
+}
+
+.center-title {
+position: absolute;
+left: 50%;
+top: 40%;
+
+color: white;
+margin: 0;
+font-size: 24px;
+}
+
+.logo{
+
+    flex: 1;
+    text-align: center;
+}
+
+
+.nav-links{
+position: absolute;
+    display: flex;
+    right: 20px;
+    top: 45%;
+left: 80%;
+font-size: 0.5cm;
+}
+
+.nav-links a{
+color: aliceblue;
+text-decoration: none;
+margin-left: 50px ;
+font-size: 20;
+}
+
+.netpointtxt{
+color: #cbcbd1;
+text-align: left;
+
+}
+
+.linkk{
+color: #cbcbd1;
+
+
+}
+
+.bildgalerie {
+background-color: #6e5a5a;
+
+
+}
+
+.row {
+display: flex;
+background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0;
+
+}
+
+
+.column{
+    flex: 33.33%;
+    padding: 3px;
+    margin: 1cm;
+}
+
+.column img {
+  width: 100%;
+  height: 550px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: 500ms;
+}
+
+.column img:hover {
+transform: scale(1.05);
+transition: 100ms;
+cursor: pointer;
+
+}
+
+.ptext {
+color: #cbcbd1;
+text-align: left;
+padding-left: 4cm;
+font-size: 2cm;
+font-family: fantasy;
+color: #cbcbd1;
+padding: cm;
+}
+
+
+.Ansprechpartner {
+padding: 10.5px;
+}
+
+</style>
+
+    <body>  
+
+<div class="header"> 
+<h1 class="center-title">Home Page</h1>
+<div class="nav-links">
+
+    <a href="#">Donate</a>
+    <a href="#">Sign up</a>
+    <a href="#">Sign in</a>
+    
+</div>
+</div>
+
+<article class="article"  style="padding-top: 0.2cm ;" >Was ist ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    ?
+<p style="font-size: 1cm;" class="netpointtxt">
+Die Netpoint GmbH ist seit 1993 ein inhabergeführtes IT-Systemhaus mit Sitz in Mönchengladbach, am Standort Madrider Straße 18. Sie bietet ein umfassendes Spektrum an IT-Dienstleistungen von Beratung 
+über Integration bis hin zum Betrieb der IT-Infrastruktur  und agiert sowohl national als auch international <a class="linkk" href="https://www.netpoint.de" >Netpoint.de</a>
+</p></article>
+
+<div class="row">
+  <div class="column">
+    <img src="imgs/b2.webp" alt="">
+  </div>
+  <div class="column">
+    <img src="imgs/b5.webp" alt="">
+  </div>
+  <div class="column">
+    <img src="imgs/b3.jpg" alt="">
+  </div>
+  <div class="column" >
+    <img src="imgs/b4.webp" alt="">
+  </div>
+</div>
+
+
+<main class="main" style="padding-top: 0.2cm,;">Ihre Ansprechpartner
+<p style="font-size: 0.7cm;" class="ptext">
+Mit purer Begeisterung für die Technologien von morgen ist unser Team das wichtigste Kapital. Wir setzen auf eine Konstellation aus erfahrenen Experten, die seit Jahrzehnten in der 
+Branche tätig sind, sowie frischen, innovativen Köpfen, die darauf brennen, in der T neue Wege zu gehen. Das Ergebnis ist ein starkes, internationales und vielfältiges Team, in dem alle
+auf das gleiche Ziel hinarbeiten: unseren Kunden die beste Performance zu liefern. </p>
+
+<div class="Ansprechpartner">
+ <img class="Ansprechpartner" style="border-radius: 1cm;" src="imgs/face_werner.png">   
+  <img class="Ansprechpartner" style="border-radius: 1cm;" src="imgs/face_jürgen.png">
+   <img class="Ansprechpartner" style="border-radius: 1cm;" src="imgs/peeters.png">
+    <img class="Ansprechpartner" style="height: 8.2cm; width: auto; border-radius: 1cm;" src="imgs/face4.png">
+     <img class="Ansprechpartner" style="height: 8.2cm; width: auto; border-radius: 1cm;" src="imgs/face5.png">
+</div>
+</main>
+
+
+
+
+
+
+
+
+
+<footer class="footer"><h4 style="color: rgba(196, 180, 180, 0.952);;">
+
+<p>website created by Hüseyin Ucar</p>
+<p>if you want to support me donate on the top right</p>
+
+</h4></footer>
+
+
+
+</body>
+</html>
